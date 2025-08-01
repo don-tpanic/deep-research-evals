@@ -1,0 +1,317 @@
+{
+  "title": "Assessment and Breakdown Evaluation Rubric",
+  "overall_score_categories": {
+    "excellent": {
+      "score": 4,
+      "description": "Comprehensive, insightful analysis that fully addresses all components"
+    },
+    "good": {
+      "score": 3,
+      "description": "Solid analysis covering most components with minor gaps"
+    },
+    "satisfactory": {
+      "score": 2,
+      "description": "Basic analysis covering key components but lacks depth or misses some elements"
+    },
+    "needs_improvement": {
+      "score": 1,
+      "description": "Incomplete or superficial analysis with significant gaps"
+    },
+    "poor": {
+      "score": 0,
+      "description": "No evidence of systematic breakdown or major misunderstanding"
+    }
+  },
+  "component_evaluation_criteria": {
+    "concept_and_entity_identification": {
+      "weight": 20,
+      "weight_percentage": "20%",
+      "scores": {
+        "excellent": {
+          "score": 4,
+          "criteria": [
+            "Identifies all main concepts with clear definitions",
+            "Recognizes both explicit and implicit key entities",
+            "Maps complex relationships between concepts accurately",
+            "Demonstrates understanding of domain-specific terminology"
+          ]
+        },
+        "good": {
+          "score": 3,
+          "criteria": [
+            "Identifies most main concepts clearly",
+            "Recognizes primary key entities",
+            "Shows understanding of basic relationships",
+            "Minor gaps in concept recognition"
+          ]
+        },
+        "satisfactory": {
+          "score": 2,
+          "criteria": [
+            "Identifies some main concepts",
+            "Recognizes obvious entities",
+            "Basic understanding of relationships",
+            "Some confusion about secondary concepts"
+          ]
+        },
+        "needs_improvement": {
+          "score": 1,
+          "criteria": [
+            "Misses several important concepts",
+            "Limited entity recognition",
+            "Poor understanding of relationships",
+            "Significant conceptual gaps"
+          ]
+        },
+        "poor": {
+          "score": 0,
+          "criteria": [
+            "Fails to identify main concepts",
+            "No clear entity recognition",
+            "No evidence of relationship understanding"
+          ]
+        }
+      }
+    },
+    "data_and_facts_requirements": {
+      "weight": 15,
+      "weight_percentage": "15%",
+      "scores": {
+        "excellent": {
+          "score": 4,
+          "criteria": [
+            "Comprehensive list of specific data points needed",
+            "Identifies both quantitative and qualitative requirements",
+            "Recognizes data dependencies and hierarchies",
+            "Anticipates potential data quality issues"
+          ]
+        },
+        "good": {
+          "score": 3,
+          "criteria": [
+            "Identifies most necessary data points",
+            "Good mix of data types identified",
+            "Some awareness of data relationships",
+            "Minor omissions in requirements"
+          ]
+        },
+        "satisfactory": {
+          "score": 2,
+          "criteria": [
+            "Lists basic data requirements",
+            "Focuses mainly on obvious needs",
+            "Limited awareness of data complexity",
+            "Some important requirements missed"
+          ]
+        },
+        "needs_improvement": {
+          "score": 1,
+          "criteria": [
+            "Incomplete data requirements",
+            "Superficial understanding of needs",
+            "Significant gaps in identification"
+          ]
+        },
+        "poor": {
+          "score": 0,
+          "criteria": [
+            "No clear data requirements identified",
+            "No evidence of understanding information needs"
+          ]
+        }
+      }
+    },
+    "temporal_and_contextual_constraints": {
+      "weight": 15,
+      "weight_percentage": "15%",
+      "scores": {
+        "excellent": {
+          "score": 4,
+          "criteria": [
+            "Identifies all relevant time constraints",
+            "Recognizes contextual limitations and boundaries",
+            "Understands how constraints affect approach",
+            "Considers both explicit and implicit constraints"
+          ]
+        },
+        "good": {
+          "score": 3,
+          "criteria": [
+            "Identifies main temporal constraints",
+            "Recognizes primary contextual factors",
+            "Good understanding of constraint impacts",
+            "Minor constraint factors missed"
+          ]
+        },
+        "satisfactory": {
+          "score": 2,
+          "criteria": [
+            "Basic identification of obvious constraints",
+            "Limited contextual awareness",
+            "Some understanding of impacts",
+            "Several constraints overlooked"
+          ]
+        },
+        "needs_improvement": {
+          "score": 1,
+          "criteria": [
+            "Poor constraint identification",
+            "Little contextual awareness",
+            "Minimal understanding of impacts"
+          ]
+        },
+        "poor": {
+          "score": 0,
+          "criteria": [
+            "No constraint recognition",
+            "No evidence of contextual understanding"
+          ]
+        }
+      }
+    },
+    "priority_and_expectation_analysis": {
+      "weight": 25,
+      "weight_percentage": "25%",
+      "scores": {
+        "excellent": {
+          "score": 4,
+          "criteria": [
+            "Clearly identifies what user cares about most",
+            "Demonstrates deep understanding of user intent",
+            "Accurately predicts user expectations",
+            "Shows insight into underlying motivations"
+          ]
+        },
+        "good": {
+          "score": 3,
+          "criteria": [
+            "Good grasp of user priorities",
+            "Solid understanding of expectations",
+            "Minor gaps in intent recognition",
+            "Generally accurate predictions"
+          ]
+        },
+        "satisfactory": {
+          "score": 2,
+          "criteria": [
+            "Basic understanding of what's important",
+            "Some awareness of user expectations",
+            "Limited insight into deeper motivations",
+            "Some misalignment with priorities"
+          ]
+        },
+        "needs_improvement": {
+          "score": 1,
+          "criteria": [
+            "Poor understanding of user priorities",
+            "Inaccurate expectation setting",
+            "Significant misalignment with intent"
+          ]
+        },
+        "poor": {
+          "score": 0,
+          "criteria": [
+            "No evidence of priority understanding",
+            "No consideration of user expectations"
+          ]
+        }
+      }
+    },
+    "tool_and_method_selection": {
+      "weight": 10,
+      "weight_percentage": "10%",
+      "scores": {
+        "excellent": {
+          "score": 4,
+          "criteria": [
+            "Accurately identifies appropriate tools/methods",
+            "Explains reasoning for tool selection",
+            "Considers multiple approaches",
+            "Anticipates tool limitations"
+          ]
+        },
+        "good": {
+          "score": 3,
+          "criteria": [
+            "Identifies suitable tools/methods",
+            "Some rationale for selection",
+            "Limited consideration of alternatives",
+            "Basic awareness of capabilities"
+          ]
+        },
+        "satisfactory": {
+          "score": 2,
+          "criteria": [
+            "Basic tool identification",
+            "Minimal reasoning provided",
+            "Single-approach thinking",
+            "Limited tool awareness"
+          ]
+        },
+        "needs_improvement": {
+          "score": 1,
+          "criteria": [
+            "Poor tool selection",
+            "No clear reasoning",
+            "Inappropriate method choices"
+          ]
+        },
+        "poor": {
+          "score": 0,
+          "criteria": [
+            "No tool/method consideration",
+            "No evidence of strategic thinking"
+          ]
+        }
+      }
+    },
+    "output_format_and_structure_planning": {
+      "weight": 15,
+      "weight_percentage": "15%",
+      "scores": {
+        "excellent": {
+          "score": 4,
+          "criteria": [
+            "Precisely defines required output format",
+            "Identifies all necessary components",
+            "Considers user workflow integration",
+            "Plans for different audience needs"
+          ]
+        },
+        "good": {
+          "score": 3,
+          "criteria": [
+            "Clear output format definition",
+            "Identifies main components needed",
+            "Some consideration of user context",
+            "Minor gaps in planning"
+          ]
+        },
+        "satisfactory": {
+          "score": 2,
+          "criteria": [
+            "Basic output format identified",
+            "Limited component planning",
+            "Minimal user consideration",
+            "Some structural gaps"
+          ]
+        },
+        "needs_improvement": {
+          "score": 1,
+          "criteria": [
+            "Vague output planning",
+            "Poor component identification",
+            "No user context consideration"
+          ]
+        },
+        "poor": {
+          "score": 0,
+          "criteria": [
+            "No output format planning",
+            "No structural consideration"
+          ]
+        }
+      }
+    }
+  }
+}
